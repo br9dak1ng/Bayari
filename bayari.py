@@ -23,10 +23,3 @@ with st.container():
     st.subheader('Let us intoduce you our rarest cobaye')
     st.write('This is bayari hes the rarest cobaye in the world he can make anyone laughs but just staring at him and very social')
 
-
-image = Image.open(r"C:\Users\BR9\Desktop\bayari.png.PNG")
-new_size = (300, 300)  # Adjust width & height
-resized_image = image.resize(new_size)
-
-# Display in Streamlit
-st.image(resized_image, caption="Smaller Image")
